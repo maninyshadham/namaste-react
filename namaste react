@@ -1,0 +1,13 @@
+what is CDN ?
+what is cross origin
+
+react.development.js - core react code
+react-dom.development.js - useful for DOM operations
+
+create element - const heading = React.createElement(); - it creates React element, which returns a javascript object (not a html directly) which containts type and props
+create root - const root = ReactDOM.createRoot(document.getElementById("root"));
+render the element - root.render(heading); // render() takes the javascript object (react element), and creates html element and put inside root element
+
+order of files loading is important
+
+we can use react only for some part of the page like only header, footer or whatever div id u want to replace
