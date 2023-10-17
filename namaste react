@@ -11,3 +11,17 @@ render the element - root.render(heading); // render() takes the javascript obje
 order of files loading is important
 
 we can use react only for some part of the page like only header, footer or whatever div id u want to replace
+
+
+bundlers like webpack,parcel,vite is used to bundle the code and make the code ready for production
+
+npm install -D - (-D) used to install dev dependencies
+
+^2.8.3 - if we use caret, then parcel will install nearest minor version
+~2.8.3 - if we use tilda, then parce will install major version
+
+package.json - it is json file contains the configuration of npm, it keeps track of what version of each package we have installed
+
+package-lock.json - it keeps track of exact version we installed for each package
+
+transitive dependencies
